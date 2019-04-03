@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+    <dimen name="text_teda">22sp</dimen>
+    <dimen name="text_da">18sp</dimen>
+    <dimen name="text_zhong">15sp</dimen>
+    <dimen name="text_xiao">12sp</dimen>
+    <dimen name="text_texiao">10sp</dimen>
+
+
+    <dimen name="selectcity_group_item_padding">14dp</dimen>
+    <dimen name="bladeview_fontsize">12sp</dimen>
+    <dimen name="bladeview_popup_fontsize">20sp</dimen>
+    <dimen name="bladeview_popup_height">80dp</dimen>
+
+
+    <dimen name="tag_corner_radius">20.0dip</dimen>
+    <dimen name="tag_horizontal_spacing">8.0dip</dimen>
+    <dimen name="tag_vertical_spacing">6.0dip</dimen>
+
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#525252</color>
+
+
+    <color name="blue">#6CA6CD</color>
+    <color name="lv_text">#4e7f11</color>
+    <color name="baise">#FFFFFF</color>
+    <color name="baise_ban">#eeffffff</color>
+    <color name="lanse_bg">#cc0254A0</color>
+    <color name="huise_text">#525252</color>
+    <color name="huise_text_2">#828282</color>
+    <color name="huise_hint">#919191</color>
+    <color name="lvse_text">#6eba2a</color>
+    <color name="touming">#00000000</color>
+    <color name="shenlan">#0254A0</color>
+    <color name="tv_shenlan">#003399</color>
+    <color name="heise">#000000</color>
+    <color name="huise_Trade_biaoge">#cccdcd</color>
+    <color name="qianlan_gf">#43e4ff</color>
+    <color name="huishe_gf">#e8e8e8</color>
+    <color name="click_down">#f39800</color>
+    <color name="qianhui_gf">#e4e4e4</color>
+    <color name="huangse_bg">#fcfad2</color>
+    <color name="heise_text">#141414</color>
+    <color name="heise_hint">#4b4b4b</color>
+    <color name="hongse_text">#b92222</color>
+    <color name="huise_bg">#f0f0f0</color>
+    <color name="huise_line">#b5b5b6</color>
+    <color name="heise_b">#55000000</color>
+    <color name="heise_b_80">#aa000000</color>
+    <color name="huise_bg_2">#ffffff</color>
+
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="viewfinder_frame">#ff00baff</color>
+    <color name="viewfinder_laser">#dd00baff</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+    <color name="result_view">#b0000000</color>
+
+    <color name="text_lan">#00daee</color>
+    <color name="bg_lan">#05526e</color>
+
+
+    <color name="titleBg">#ff9d5c</color>
+    <color name="lv">#97d11a</color>
+    <color name="list_select">#7c8285</color>
+    <color name="select_bg">#eafcff</color>
+    <color name="hui_q">#d2d2d0</color>
+
+    <color name="baise_tou70">#A5FFFFFF</color>
+
+    <color name="gray">#dcdcdc</color>
+    <!--  新版界面 -->
+
+
+    <color name="bg_huibai">#f3f6f5</color>
+    <color name="bg_hui">#eeeeee</color>
+    <color name="bg_weibai">#f2f8fd</color>
+
+
+
+
+    <color name="text_juhuang">#ff8901</color>
+    <color name="text_hei">#333333</color>
+    <color name="text_huiq">#c4c4c4</color>
+    <color name="line_hei">#b2b2b2</color>
+    <color name="line_hui">#e1e1e1</color>
+    <color name="text_zise">#81007f</color>
+    <color name="bg_zise">#5c025b</color>
+
+</resources>

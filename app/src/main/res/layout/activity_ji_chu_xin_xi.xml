@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baise"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/shenlan">
+
+        <ImageView
+            android:id="@+id/iv_fanhui"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@mipmap/icon_back_bai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="环卫设施信息"
+            android:textColor="@color/baise"
+            android:textSize="@dimen/text_teda" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:text="首页"
+            android:textColor="@color/baise"
+            android:textSize="@dimen/text_zhong" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bn_one"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@color/lanse_bg"
+            android:text="厕所管理"
+            android:textColor="@color/baise"
+            android:textSize="@dimen/text_da" />
+
+        <Button
+            android:id="@+id/bn_two"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/lanse_bg"
+            android:text="设施管理"
+            android:textColor="@color/baise"
+            android:textSize="@dimen/text_da" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

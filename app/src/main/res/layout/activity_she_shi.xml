@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baise"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/shenlan">
+
+        <ImageView
+            android:id="@+id/iv_fanhui"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@mipmap/icon_back_bai" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设施管理"
+            android:textColor="@color/baise"
+            android:textSize="@dimen/text_teda" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:text="首页"
+            android:textColor="@color/baise"
+            android:textSize="@dimen/text_zhong" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="设施名称："
+            android:textSize="@dimen/text_zhong" />
+
+        <EditText
+            android:id="@+id/et_SheShiName"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:background="@color/bg_hui"
+            android:textSize="@dimen/text_zhong" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="所属区县："
+            android:textSize="@dimen/text_zhong" />
+
+        <TextView
+            android:id="@+id/tv_area"
+            android:layout_width="80dp"
+            android:layout_height="21dp"
+            android:background="@color/bg_hui" />
+
+    </LinearLayout>
+
+    <com.hollysmart.views.xlistview.XListView
+        android:id="@+id/lv_sheShi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/touming"
+        android:dividerHeight="0dp" />
+
+
+</LinearLayout>
